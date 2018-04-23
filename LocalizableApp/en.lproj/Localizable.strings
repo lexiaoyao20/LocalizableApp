@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  LocalizeApp
+
+  Created by Subo on 2018/4/23.
+  Copyright © 2018年 Followme. All rights reserved.
+*/
+
+"Chats" = "Chats";
+"WeChat" = "WeChat";
+"Contacts" = "Contacts";
+"Discover" = "Discover";
+"Me" = "Me";
+
+"Settings" = "Settings";
+"Setting Language" = "Language";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Setting..." = "Setting...";
+

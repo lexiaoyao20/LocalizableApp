@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>languageKey</key>
+		<string>zh-Hans</string>
+		<key>languageName</key>
+		<string>简体中文</string>
+	</dict>
+	<dict>
+		<key>languageKey</key>
+		<string>zh-Hant</string>
+		<key>languageName</key>
+		<string>繁體中文</string>
+	</dict>
+	<dict>
+		<key>languageKey</key>
+		<string>en</string>
+		<key>languageName</key>
+		<string>English</string>
+	</dict>
+</array>
+</plist>
