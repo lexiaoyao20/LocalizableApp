@@ -6,10 +6,11 @@
 //  Copyright © 2018年 com.followme. All rights reserved.
 //
 
-#import <SVProgressHUD/SVProgressHUD.h>
+
 #import "FMLanguageSettingController.h"
 #import "FMLanguageBundle.h"
 #import "UIColor+FMAddtions.h"
+#import "SVProgressHUD.h"
 
 @interface FMLanguageCell : UITableViewCell
 

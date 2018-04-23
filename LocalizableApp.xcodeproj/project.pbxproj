@@ -23,7 +23,11 @@
 		9368CE18208D9118000CFAF1 /* FMLanguageBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368CE15208D9118000CFAF1 /* FMLanguageBundle.m */; };
 		9368CE1C208DC444000CFAF1 /* UIColor+FMAddtions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368CE1B208DC444000CFAF1 /* UIColor+FMAddtions.m */; };
 		9368CE21208DDBC5000CFAF1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9368CE23208DDBC5000CFAF1 /* Localizable.strings */; };
-		E0DBD9AD85A2CEFF0754BAD5 /* Pods_LocalizableApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACD0DD85E44CEAE872D6C94 /* Pods_LocalizableApp.framework */; };
+		9368CE31208DF8EB000CFAF1 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368CE29208DF8EA000CFAF1 /* SVIndefiniteAnimatedView.m */; };
+		9368CE32208DF8EB000CFAF1 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368CE2B208DF8EA000CFAF1 /* SVProgressAnimatedView.m */; };
+		9368CE33208DF8EB000CFAF1 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9368CE2C208DF8EA000CFAF1 /* SVProgressHUD.bundle */; };
+		9368CE34208DF8EB000CFAF1 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368CE2E208DF8EA000CFAF1 /* SVProgressHUD.m */; };
+		9368CE35208DF8EB000CFAF1 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368CE30208DF8EA000CFAF1 /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0ACD0DD85E44CEAE872D6C94 /* Pods_LocalizableApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizableApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9364FACE205A1D1F00B8D8C3 /* LocalizableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9364FAD1205A1D1F00B8D8C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9364FAD2205A1D1F00B8D8C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,8 +74,15 @@
 		9368CE22208DDBC5000CFAF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9368CE24208DDBC7000CFAF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		9368CE25208DDBC8000CFAF1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		D55B542DC0E4930A4BF955B2 /* Pods-LocalizableApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizableApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizableApp/Pods-LocalizableApp.debug.xcconfig"; sourceTree = "<group>"; };
-		DE3C30021392169E42EACC94 /* Pods-LocalizableApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizableApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalizableApp/Pods-LocalizableApp.release.xcconfig"; sourceTree = "<group>"; };
+		9368CE28208DF8EA000CFAF1 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		9368CE29208DF8EA000CFAF1 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9368CE2A208DF8EA000CFAF1 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		9368CE2B208DF8EA000CFAF1 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		9368CE2C208DF8EA000CFAF1 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9368CE2D208DF8EA000CFAF1 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9368CE2E208DF8EA000CFAF1 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		9368CE2F208DF8EA000CFAF1 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		9368CE30208DF8EA000CFAF1 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DBD9AD85A2CEFF0754BAD5 /* Pods_LocalizableApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,22 +103,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BFAB32EE0338DA7ECDC5002 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D55B542DC0E4930A4BF955B2 /* Pods-LocalizableApp.debug.xcconfig */,
-				DE3C30021392169E42EACC94 /* Pods-LocalizableApp.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		9364FAC5205A1D1F00B8D8C3 = {
 			isa = PBXGroup;
 			children = (
 				9364FAD0205A1D1F00B8D8C3 /* LocalizableApp */,
 				9364FAE9205A1D1F00B8D8C3 /* LocalizableAppTests */,
 				9364FACF205A1D1F00B8D8C3 /* Products */,
-				1BFAB32EE0338DA7ECDC5002 /* Pods */,
 				E2FFB7813FB3A7D8EAEAB09D /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -126,6 +125,7 @@
 		9364FAD0205A1D1F00B8D8C3 /* LocalizableApp */ = {
 			isa = PBXGroup;
 			children = (
+				9368CE26208DF8EA000CFAF1 /* Vendor */,
 				9368CE19208DC43C000CFAF1 /* Category */,
 				9368CE10208D90FA000CFAF1 /* LanguageSetting */,
 				9364FAF8205A1F5800B8D8C3 /* Controller */,
@@ -188,10 +188,33 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		9368CE26208DF8EA000CFAF1 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9368CE27208DF8EA000CFAF1 /* SVProgressHUD */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		9368CE27208DF8EA000CFAF1 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9368CE28208DF8EA000CFAF1 /* SVIndefiniteAnimatedView.h */,
+				9368CE29208DF8EA000CFAF1 /* SVIndefiniteAnimatedView.m */,
+				9368CE2A208DF8EA000CFAF1 /* SVProgressAnimatedView.h */,
+				9368CE2B208DF8EA000CFAF1 /* SVProgressAnimatedView.m */,
+				9368CE2C208DF8EA000CFAF1 /* SVProgressHUD.bundle */,
+				9368CE2D208DF8EA000CFAF1 /* SVProgressHUD.h */,
+				9368CE2E208DF8EA000CFAF1 /* SVProgressHUD.m */,
+				9368CE2F208DF8EA000CFAF1 /* SVRadialGradientLayer.h */,
+				9368CE30208DF8EA000CFAF1 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		E2FFB7813FB3A7D8EAEAB09D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0ACD0DD85E44CEAE872D6C94 /* Pods_LocalizableApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,12 +226,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9364FAEF205A1D1F00B8D8C3 /* Build configuration list for PBXNativeTarget "LocalizableApp" */;
 			buildPhases = (
-				42498DA7BA0AEDD36A34661C /* [CP] Check Pods Manifest.lock */,
 				9364FACA205A1D1F00B8D8C3 /* Sources */,
 				9364FACB205A1D1F00B8D8C3 /* Frameworks */,
 				9364FACC205A1D1F00B8D8C3 /* Resources */,
-				918EEB5402710CE115E5F783 /* [CP] Embed Pods Frameworks */,
-				322C49573E487C1F0564A17E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9368CE21208DDBC5000CFAF1 /* Localizable.strings in Resources */,
+				9368CE33208DF8EB000CFAF1 /* SVProgressHUD.bundle in Resources */,
 				9364FADE205A1D1F00B8D8C3 /* LaunchScreen.storyboard in Resources */,
 				9364FB06205A1FD400B8D8C3 /* FMMeController.xib in Resources */,
 				9364FADB205A1D1F00B8D8C3 /* Assets.xcassets in Resources */,
@@ -300,60 +321,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		322C49573E487C1F0564A17E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalizableApp/Pods-LocalizableApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		42498DA7BA0AEDD36A34661C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LocalizableApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		918EEB5402710CE115E5F783 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LocalizableApp/Pods-LocalizableApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalizableApp/Pods-LocalizableApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		9364FACA205A1D1F00B8D8C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -366,9 +333,13 @@
 				9364FB05205A1FD400B8D8C3 /* FMMeController.m in Sources */,
 				9368CE18208D9118000CFAF1 /* FMLanguageBundle.m in Sources */,
 				9364FAFB205A1F6F00B8D8C3 /* FMWeChatController.m in Sources */,
+				9368CE35208DF8EB000CFAF1 /* SVRadialGradientLayer.m in Sources */,
 				9368CE17208D9118000CFAF1 /* FMLanguageSettingController.m in Sources */,
 				9368CE1C208DC444000CFAF1 /* UIColor+FMAddtions.m in Sources */,
+				9368CE34208DF8EB000CFAF1 /* SVProgressHUD.m in Sources */,
+				9368CE31208DF8EB000CFAF1 /* SVIndefiniteAnimatedView.m in Sources */,
 				9364FAD3205A1D1F00B8D8C3 /* AppDelegate.m in Sources */,
+				9368CE32208DF8EB000CFAF1 /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,7 +493,6 @@
 		};
 		9364FAF0205A1D1F00B8D8C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D55B542DC0E4930A4BF955B2 /* Pods-LocalizableApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,7 +508,6 @@
 		};
 		9364FAF1205A1D1F00B8D8C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE3C30021392169E42EACC94 /* Pods-LocalizableApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

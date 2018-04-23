@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.settingButton setTitle:NSLocalizedString(@"Settings", nil) forState:UIControlStateNormal];
 }
 
